@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Nanum+Myeongjo|Sawarabi+Mincho');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Nanum Myeongjo', serif;
+    white-space:nowrap
+}
+
+.japanese {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.centered {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rectangle {
+    height: 0.5rem;
+    background: #ef7420;
+}
+
+.centered .title {
+    line-height: 230%;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #ef7420;
+    text-align: center;
+}
+
+.name {
+    font-size: 3.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+.heart {
+    color: #e50000;
+}
+
+.wedding-date {
+    font-size: 2.3rem;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wedding-time {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.greeting {
+    font-size: 3.6rem;
+    font-weight:200;
+    line-height: 110%;
+    text-align:left;
+    margin-left: 5%;
+    color: #6b665e;
+    padding-bottom: 50px;
+}
+
+.family table {
+    /* font-size: 2.4rem; */
+    font-size: 23px;
+    line-height: 100%;
+    text-align: left;
+    margin-left: 10%;
+    width: 300px;
+}
+
+.family table tr {
+    padding-top: 10px;
+}
+
+.family .smallfont {
+    /* font-size: 1.8rem; */
+    font-size: 19px;
+    font-weight: normal;
+    padding-left: 5px;
+    padding-right: 15px;
+    height: 40px;
+}
+
+.notice {
+    padding-top: 50px;
+    font-size: 2rem;
+    line-height: 110%;
+    text-align:left;
+    margin-left: 5%;
+}
+
+.highlight {
+    color: #ef7420;
+}
+
+.calendar {
+    font-size:1.3em;
+    text-align:center;
+}
+
+.month, .subtitle {
+    /* padding-left:10px; */
+    line-height: 150%;
+    font-size:2rem;
+    font-weight:bold;
+    text-align:left;
+}
+
+.d-day {
+    background-color:#fcc;
+    color:#f33;
+}
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.img-title {
+    width: 100%;
+}
+
+.my-gallery {overflow:hidden; padding:10px;}
+.my-gallery figure {float:left; width:33.33%; box-sizing:border-box; padding:7px;}
+.my-gallery figure a {background-size:cover !important; cursor:default; display:block;}
+.my-gallery figure .img_frame {width:100%; vertical-align:top;}
+.my-gallery figcaption {display: none;}
